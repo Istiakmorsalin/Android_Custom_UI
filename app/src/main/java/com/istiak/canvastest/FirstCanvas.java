@@ -39,6 +39,6 @@ public class FirstCanvas extends View {
         paint.setColor(Color.BLUE);
         paint.setStrokeWidth(3);
 
-        canvas.drawRect(0, 0, canvas.getWidth()/2, canvas.getHeight()/2, paint);
+        canvas.drawRect(0, 0, canvas.getWidth() / 2, canvas.getHeight() / 2, paint);
     }
 }
